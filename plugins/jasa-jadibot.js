@@ -3,35 +3,11 @@ import db from '../lib/database.js'
 //const require = createRequire(import.meta.url);
 
 let handler = async (m, { conn, command }) => {
-	let ini_txt = db.data.datas.teksjadibot || `❤‍🩹 *[ Chat Dengan Creator ]*
-wa.me/6282337245566
+	let ini_txt = db.data.datas.teksjadibot || `❤‍🩹 *[ Chat Dengan owner ]*
+wa.me/6281216328228
 
-╔╣ *PREMIUM USER*
-║ • Infinity Limit
-║ • Full Akses Private Chat
-╚══╣ *Harga :* Rp.10.000 / bulan
 
-╔╣ *SEWA BOT*
-║ • Dapat Premium
-║ • Bebas Invit ke 1 Grup
-╚══╣ *Harga :* Rp.15.000 / bulan
 
-╔╣ *JASA RUN BOT*
-║ • Nebeng Run SC Via RDP
-║ • SC wajib *plugin*, bukan case
-╚══╣ *Harga :* Rp.20.000 / bulan
-
-╔╣ *JADI BOT*
-║ • Jadi Bot Azami Always ON
-║ • Custom Namabot, Owner, rules, dll.
-║ • Bisa Req Tampilan atau Fitur
-╚══╣ *Harga :* Rp.25.000 / bulan
-
-- Pembayaran via *OVO / Dana / GoPay*
-  *( tidak ada opsi lain )*
-  ke nomor 082337245566
-- Whatsapp Multi Device
-- Run via RDP (Always ON)
 - Request Fitur? *Chat Link Creator di atas.*`
 	//m.reply(ini_txt)
 	command = command.toLowerCase()
