@@ -41,9 +41,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				"productImageCount": 100,
 				"firstImageId": 1,
 				"salePriceAmount1000": "15000000",
-				"retailerId": `ꪶ𝐖𝐫𝐚𝐧𝐳𝐓𝐚𝐦𝐩𝐚𝐧𝐳⿻ꫂ`,
-				"url": "wa.me/6282337245566"
-			},
+				"retailerId": ``,
+				
 			"businessOwnerJid": "6282337245566@s.whatsapp.net",
 		}
 	}), { userJid: m.chat, quoted: m })
